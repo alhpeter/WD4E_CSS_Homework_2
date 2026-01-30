@@ -3,14 +3,37 @@ body {
   font-size: 150%;
 }
 
+body a {
+  color: #ffffff;
+  text-decoration: underline #ffffff;
+}
+
 header {
-  background-color: #d9f89f;
-  margin: 10px;
+  background-color: #ddff9a;
+  margin: 0 auto;
+}
+
+body a:hover {
+  color: #00ff00;
 }
 
 nav {
-  margin: 10px;
+  display: inline-block;
+  width: 80%;
+  margin: 0 auto;
   background-color: #426822;
+}
+
+nav img {
+  width: 10%;
+  position: relative;
+  top: 20px;
+}
+
+header img {
+  width: 10%;
+  position: relative;
+  top: 20px;   
 }
 
 main {
@@ -18,7 +41,7 @@ main {
   color: #d9f89f;
   font-size: 30px;
   padding: 10px;
-  margin: 10px;
+
   text-align: justify;
 }
 
@@ -27,17 +50,49 @@ a {
   text-decoration: underline #c7ff60;
 }
 
-li {
+/* li {
   display: inline-block;
   width: 25%;
   margin: 30px;
+} */
+
+nav a {
+    display: inline;
+    font-weight: bold;
+    color: #214107;
+    background: #c7ff60;
+    width: 200px;
+    text-align: center;
+    padding: 4px;
+    margin: 10px auto 0 auto;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #214107;
+    color: #c7ff60;
+}
+
+nav a:focus {
+    background: #dcff9c;
+    color: #426822;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-decoration: none;
+    width: 90%;
+    list-style-type: none;
 }
 
 footer {
   background-color: #d9f89f;
   color: #426822;
   padding: 10px;
-  margin: 10px;
+
   opacity: 0.85;
 }
 
@@ -62,4 +117,43 @@ h1 {
 
 p {
   line-height: 1.5;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-items: center;
+  row-gap: 40px;
+  column-gap: 40px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+.flex img {
+    width: 100px;
+    height: 133.33px;
+}
+
+.current {
+  font-weight: 700;
+  text-shadow: 1px 1px 2px #000000;
+  font-weight: bold;
+}
+
+
+.nav-adjust {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
