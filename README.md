@@ -3,7 +3,7 @@
 You are currently viewing the GitHub repository, wherein you can access the code to evaluate.
 The LIVE WEBSITE is here: 
 
-👉👉👉 https://alhpeter.github.io/WD4E_CSS_Homework_1/ 👈👈👈
+👉👉👉  👈👈👈
 
 Please click the link above to view the actual site.
 
