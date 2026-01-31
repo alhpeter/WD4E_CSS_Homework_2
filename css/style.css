@@ -4,20 +4,13 @@ body {
 }
 
 body a {
-    display: inline;
-    font-weight: bold;
-    color: #214107;
-    background: #c7ff60;
-    width: 200px;
-    text-align: center;
-    padding: 4px;
-    margin: 10px auto 0 auto;
-    text-decoration: none;
+  color: #214107;
+  text-decoration: underline #214107;
 }
 
 body a:hover {
-    color: #00ff00;
-  text-decoration: #00ff00;
+  color: #426822;
+  text-decoration: underline #426822;
 }
 
 header {
@@ -25,15 +18,14 @@ header {
   margin: 0 auto;
 }
 
-main a {  
-  color: #214107;
-  text-decoration: underline #214107;
+#main-content a {
+  color: #00ff00;
+  text-decoration: underline #00ff00;
 }
 
-main a:hover {
-    background: #214107;
-    color: #c7ff60;
-
+#main-content a:hover {
+  color: #8eff71;
+  text-decoration: underline #8eff71;
 }
 
 nav {
