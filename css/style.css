@@ -8,12 +8,20 @@ body a {
   text-decoration: underline #214107;
 }
 
+body a:hover {
+  color: #426822;
+}
+
 header {
   background-color: #ddff9a;
   margin: 0 auto;
 }
 
-body a:hover {
+main a {
+  color: #277913
+}
+
+main a:hover {
   color: #00ff00;
 }
 
