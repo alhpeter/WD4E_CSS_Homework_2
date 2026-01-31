@@ -9,7 +9,8 @@ body a {
 }
 
 body a:hover {
-  color: #426822;
+    background: #214107;
+    color: #c7ff60;
 }
 
 header {
@@ -18,8 +19,15 @@ header {
 }
 
 main a {
-  color: #9cf752;
-  text-decoration: underline #9cf752;
+    display: inline;
+    font-weight: bold;
+    color: #214107;
+    background: #c7ff60;
+    width: 200px;
+    text-align: center;
+    padding: 4px;
+    margin: 10px auto 0 auto;
+    text-decoration: none;
 }
 
 main a:hover {
