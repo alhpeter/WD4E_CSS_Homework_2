@@ -18,8 +18,8 @@ header {
 }
 
 main a {
-  color: ##baffa9;
-  text-decoration: underline #baffa9;
+  color: #9cf752;
+  text-decoration: underline #9cf752;
 }
 
 main a:hover {
@@ -53,11 +53,6 @@ main {
   padding: 10px;
 
   text-align: justify;
-}
-
-a {
-  color: #c5ff5b;
-  text-decoration: underline #c7ff60;
 }
 
 /* li {
