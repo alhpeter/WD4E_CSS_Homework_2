@@ -4,21 +4,6 @@ body {
 }
 
 body a {
-  color: #214107;
-  text-decoration: underline #214107;
-}
-
-body a:hover {
-    background: #214107;
-    color: #c7ff60;
-}
-
-header {
-  background-color: #ddff9a;
-  margin: 0 auto;
-}
-
-main a {
     display: inline;
     font-weight: bold;
     color: #214107;
@@ -30,9 +15,25 @@ main a {
     text-decoration: none;
 }
 
-main a:hover {
-  color: #00ff00;
+body a:hover {
+    color: #00ff00;
   text-decoration: #00ff00;
+}
+
+header {
+  background-color: #ddff9a;
+  margin: 0 auto;
+}
+
+main a {  
+  color: #214107;
+  text-decoration: underline #214107;
+}
+
+main a:hover {
+    background: #214107;
+    color: #c7ff60;
+
 }
 
 nav {
