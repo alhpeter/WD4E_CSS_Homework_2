@@ -3,13 +3,9 @@ body {
   font-size: 150%;
 }
 
-#main-content {
-  color: #214107;
-}
-
 body a {
-  color: #00ef28;
-  text-decoration: underline #00ef28;
+  color: #214107;
+  text-decoration: underline #214107;
 }
 
 header {
